@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AstromindModelStoreContainer" CdmEntityContainer="AstromindEntities">
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="AstromindModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="empId" ColumnName="empId" />
+          <ScalarProperty Name="empName" ColumnName="empName" />
+          <ScalarProperty Name="empSalary" ColumnName="empSalary" />
+          <ScalarProperty Name="empAge" ColumnName="empAge" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
